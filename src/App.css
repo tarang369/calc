@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color:black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
-.App-link {
-  color: #09d3ac;
+.calculator-wrapper {
+  width: 80%;
+  max-width: 300px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 10px 10px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
 }
